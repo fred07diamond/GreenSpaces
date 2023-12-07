@@ -1,0 +1,868 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		558ACCEA2B1F838C00A8FE1A /* Nunito-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCDA2B1F838B00A8FE1A /* Nunito-SemiBoldItalic.ttf */; };
+		558ACCEB2B1F838C00A8FE1A /* Nunito-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCDB2B1F838B00A8FE1A /* Nunito-Black.ttf */; };
+		558ACCEC2B1F838C00A8FE1A /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCDC2B1F838B00A8FE1A /* Nunito-Regular.ttf */; };
+		558ACCED2B1F838C00A8FE1A /* Nunito-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCDD2B1F838B00A8FE1A /* Nunito-Italic.ttf */; };
+		558ACCEE2B1F838C00A8FE1A /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCDE2B1F838B00A8FE1A /* Nunito-Bold.ttf */; };
+		558ACCEF2B1F838C00A8FE1A /* Nunito-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCDF2B1F838B00A8FE1A /* Nunito-BoldItalic.ttf */; };
+		558ACCF02B1F838C00A8FE1A /* Nunito-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE02B1F838B00A8FE1A /* Nunito-Medium.ttf */; };
+		558ACCF12B1F838C00A8FE1A /* Nunito-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE12B1F838B00A8FE1A /* Nunito-MediumItalic.ttf */; };
+		558ACCF22B1F838C00A8FE1A /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE22B1F838C00A8FE1A /* Nunito-LightItalic.ttf */; };
+		558ACCF32B1F838C00A8FE1A /* Nunito-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE32B1F838C00A8FE1A /* Nunito-BlackItalic.ttf */; };
+		558ACCF42B1F838C00A8FE1A /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE42B1F838C00A8FE1A /* Nunito-SemiBold.ttf */; };
+		558ACCF52B1F838C00A8FE1A /* Nunito-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE52B1F838C00A8FE1A /* Nunito-ExtraBoldItalic.ttf */; };
+		558ACCF72B1F838C00A8FE1A /* Nunito-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE72B1F838C00A8FE1A /* Nunito-Light.ttf */; };
+		558ACCF82B1F838C00A8FE1A /* Nunito-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE82B1F838C00A8FE1A /* Nunito-ExtraLight.ttf */; };
+		558ACCF92B1F838C00A8FE1A /* Nunito-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 558ACCE92B1F838C00A8FE1A /* Nunito-ExtraLightItalic.ttf */; };
+		558ACCFF2B1FDAC700A8FE1A /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACCFE2B1FDAC700A8FE1A /* MapViewState.swift */; };
+		558ACD132B1FED8600A8FE1A /* LocationSearchActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACD022B1FED8500A8FE1A /* LocationSearchActivationView.swift */; };
+		558ACD152B1FED8600A8FE1A /* LocationSearchResultsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACD042B1FED8500A8FE1A /* LocationSearchResultsCell.swift */; };
+		558ACD1B2B1FED8600A8FE1A /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACD0A2B1FED8500A8FE1A /* LocationSearchView.swift */; };
+		558ACD1D2B1FED8600A8FE1A /* MapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACD0C2B1FED8500A8FE1A /* MapViewRepresentable.swift */; };
+		558ACD202B1FED8600A8FE1A /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACD0F2B1FED8600A8FE1A /* LocationSearchViewModel.swift */; };
+		558ACD212B1FED8600A8FE1A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACD102B1FED8600A8FE1A /* MapView.swift */; };
+		558ACD342B1FF2BD00A8FE1A /* MapViewActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACD332B1FF2BD00A8FE1A /* MapViewActionButton.swift */; };
+		558ACD372B1FF62A00A8FE1A /* ParkServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558ACD362B1FF62A00A8FE1A /* ParkServicesView.swift */; };
+		55A0ABCF2B2113560021FB79 /* Buddies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A0ABCE2B2113560021FB79 /* Buddies.swift */; };
+		55D3DCAF2B1ECF740094AA94 /* GreenSpacesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3DCAE2B1ECF740094AA94 /* GreenSpacesApp.swift */; };
+		55D3DCB12B1ECF740094AA94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3DCB02B1ECF740094AA94 /* ContentView.swift */; };
+		55D3DCB32B1ECF790094AA94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D3DCB22B1ECF790094AA94 /* Assets.xcassets */; };
+		55D3DCB62B1ECF790094AA94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D3DCB52B1ECF790094AA94 /* Preview Assets.xcassets */; };
+		55D3DCC02B1ECF790094AA94 /* GreenSpacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3DCBF2B1ECF790094AA94 /* GreenSpacesTests.swift */; };
+		55D3DCCA2B1ECF790094AA94 /* GreenSpacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3DCC92B1ECF790094AA94 /* GreenSpacesUITests.swift */; };
+		55D3DCCC2B1ECF790094AA94 /* GreenSpacesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3DCCB2B1ECF790094AA94 /* GreenSpacesUITestsLaunchTests.swift */; };
+		55D3DCD92B1ED8F60094AA94 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3DCD82B1ED8F60094AA94 /* PageModel.swift */; };
+		55D3DCDD2B1EDC0E0094AA94 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3DCDC2B1EDC0E0094AA94 /* PageView.swift */; };
+		55D3DCE12B1EE4E60094AA94 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 55D3DCE02B1EE4E60094AA94 /* Nunito-ExtraBold.ttf */; };
+		55D3DCF32B1F09D60094AA94 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3DCF22B1F09D60094AA94 /* LocationManager.swift */; };
+		55F27FE32B21248900DF2987 /* ConfirmationPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F27FE22B21248900DF2987 /* ConfirmationPageView.swift */; };
+		55F27FE52B21401A00DF2987 /* BackToHomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F27FE42B21401A00DF2987 /* BackToHomeButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55D3DCBC2B1ECF790094AA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D3DCA32B1ECF740094AA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D3DCAA2B1ECF740094AA94;
+			remoteInfo = GreenSpaces;
+		};
+		55D3DCC62B1ECF790094AA94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55D3DCA32B1ECF740094AA94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55D3DCAA2B1ECF740094AA94;
+			remoteInfo = GreenSpaces;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		558ACCDA2B1F838B00A8FE1A /* Nunito-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		558ACCDB2B1F838B00A8FE1A /* Nunito-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Black.ttf"; sourceTree = "<group>"; };
+		558ACCDC2B1F838B00A8FE1A /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		558ACCDD2B1F838B00A8FE1A /* Nunito-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Italic.ttf"; sourceTree = "<group>"; };
+		558ACCDE2B1F838B00A8FE1A /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		558ACCDF2B1F838B00A8FE1A /* Nunito-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BoldItalic.ttf"; sourceTree = "<group>"; };
+		558ACCE02B1F838B00A8FE1A /* Nunito-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Medium.ttf"; sourceTree = "<group>"; };
+		558ACCE12B1F838B00A8FE1A /* Nunito-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-MediumItalic.ttf"; sourceTree = "<group>"; };
+		558ACCE22B1F838C00A8FE1A /* Nunito-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-LightItalic.ttf"; sourceTree = "<group>"; };
+		558ACCE32B1F838C00A8FE1A /* Nunito-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-BlackItalic.ttf"; sourceTree = "<group>"; };
+		558ACCE42B1F838C00A8FE1A /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		558ACCE52B1F838C00A8FE1A /* Nunito-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		558ACCE72B1F838C00A8FE1A /* Nunito-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Light.ttf"; sourceTree = "<group>"; };
+		558ACCE82B1F838C00A8FE1A /* Nunito-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLight.ttf"; sourceTree = "<group>"; };
+		558ACCE92B1F838C00A8FE1A /* Nunito-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		558ACCFE2B1FDAC700A8FE1A /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
+		558ACD022B1FED8500A8FE1A /* LocationSearchActivationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchActivationView.swift; sourceTree = "<group>"; };
+		558ACD042B1FED8500A8FE1A /* LocationSearchResultsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchResultsCell.swift; sourceTree = "<group>"; };
+		558ACD0A2B1FED8500A8FE1A /* LocationSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
+		558ACD0C2B1FED8500A8FE1A /* MapViewRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewRepresentable.swift; sourceTree = "<group>"; };
+		558ACD0F2B1FED8600A8FE1A /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		558ACD102B1FED8600A8FE1A /* MapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		558ACD332B1FF2BD00A8FE1A /* MapViewActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewActionButton.swift; path = "GreenSpaces/Map Functionality/Models/MapViewActionButton.swift"; sourceTree = SOURCE_ROOT; };
+		558ACD362B1FF62A00A8FE1A /* ParkServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkServicesView.swift; sourceTree = "<group>"; };
+		55A0ABCE2B2113560021FB79 /* Buddies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buddies.swift; sourceTree = "<group>"; };
+		55D3DCAB2B1ECF740094AA94 /* GreenSpaces.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenSpaces.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D3DCAE2B1ECF740094AA94 /* GreenSpacesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenSpacesApp.swift; sourceTree = "<group>"; };
+		55D3DCB02B1ECF740094AA94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		55D3DCB22B1ECF790094AA94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55D3DCB52B1ECF790094AA94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55D3DCBB2B1ECF790094AA94 /* GreenSpacesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenSpacesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D3DCBF2B1ECF790094AA94 /* GreenSpacesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenSpacesTests.swift; sourceTree = "<group>"; };
+		55D3DCC52B1ECF790094AA94 /* GreenSpacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenSpacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D3DCC92B1ECF790094AA94 /* GreenSpacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenSpacesUITests.swift; sourceTree = "<group>"; };
+		55D3DCCB2B1ECF790094AA94 /* GreenSpacesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenSpacesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		55D3DCD82B1ED8F60094AA94 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		55D3DCDC2B1EDC0E0094AA94 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		55D3DCE02B1EE4E60094AA94 /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		55D3DCE22B1EE5340094AA94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55D3DCF22B1F09D60094AA94 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		55F27FE22B21248900DF2987 /* ConfirmationPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationPageView.swift; sourceTree = "<group>"; };
+		55F27FE42B21401A00DF2987 /* BackToHomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackToHomeButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D3DCA82B1ECF740094AA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D3DCB82B1ECF790094AA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D3DCC22B1ECF790094AA94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		554E51262B1F75A600B01321 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				558ACCDB2B1F838B00A8FE1A /* Nunito-Black.ttf */,
+				558ACCE32B1F838C00A8FE1A /* Nunito-BlackItalic.ttf */,
+				558ACCDE2B1F838B00A8FE1A /* Nunito-Bold.ttf */,
+				558ACCDF2B1F838B00A8FE1A /* Nunito-BoldItalic.ttf */,
+				558ACCE52B1F838C00A8FE1A /* Nunito-ExtraBoldItalic.ttf */,
+				558ACCE82B1F838C00A8FE1A /* Nunito-ExtraLight.ttf */,
+				558ACCE92B1F838C00A8FE1A /* Nunito-ExtraLightItalic.ttf */,
+				558ACCDD2B1F838B00A8FE1A /* Nunito-Italic.ttf */,
+				558ACCE72B1F838C00A8FE1A /* Nunito-Light.ttf */,
+				558ACCE22B1F838C00A8FE1A /* Nunito-LightItalic.ttf */,
+				558ACCE02B1F838B00A8FE1A /* Nunito-Medium.ttf */,
+				558ACCE12B1F838B00A8FE1A /* Nunito-MediumItalic.ttf */,
+				558ACCDC2B1F838B00A8FE1A /* Nunito-Regular.ttf */,
+				558ACCE42B1F838C00A8FE1A /* Nunito-SemiBold.ttf */,
+				558ACCDA2B1F838B00A8FE1A /* Nunito-SemiBoldItalic.ttf */,
+				55D3DCE02B1EE4E60094AA94 /* Nunito-ExtraBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		558ACD222B1FEE8500A8FE1A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD352B1FF5F900A8FE1A /* Trips */,
+				558ACD232B1FEE9800A8FE1A /* LocationSearch */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		558ACD232B1FEE9800A8FE1A /* LocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD252B1FEEC500A8FE1A /* ViewModel */,
+				558ACD242B1FEEAE00A8FE1A /* Views */,
+				558ACD262B1FEF1B00A8FE1A /* Home */,
+			);
+			path = LocationSearch;
+			sourceTree = "<group>";
+		};
+		558ACD242B1FEEAE00A8FE1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD0A2B1FED8500A8FE1A /* LocationSearchView.swift */,
+				558ACD042B1FED8500A8FE1A /* LocationSearchResultsCell.swift */,
+				558ACD022B1FED8500A8FE1A /* LocationSearchActivationView.swift */,
+				55F27FE22B21248900DF2987 /* ConfirmationPageView.swift */,
+				55F27FE42B21401A00DF2987 /* BackToHomeButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		558ACD252B1FEEC500A8FE1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD0F2B1FED8600A8FE1A /* LocationSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		558ACD262B1FEF1B00A8FE1A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD272B1FEF2400A8FE1A /* ViewModel */,
+				558ACD282B1FEF2900A8FE1A /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		558ACD272B1FEF2400A8FE1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		558ACD282B1FEF2900A8FE1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD102B1FED8600A8FE1A /* MapView.swift */,
+				558ACD0C2B1FED8500A8FE1A /* MapViewRepresentable.swift */,
+				558ACD332B1FF2BD00A8FE1A /* MapViewActionButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		558ACD292B1FEF9700A8FE1A /* Main Flow  */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD2B2B1FEFB500A8FE1A /* Models */,
+				558ACD2A2B1FEFAC00A8FE1A /* Views */,
+			);
+			path = "Main Flow ";
+			sourceTree = "<group>";
+		};
+		558ACD2A2B1FEFAC00A8FE1A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCDC2B1EDC0E0094AA94 /* PageView.swift */,
+				55D3DCB02B1ECF740094AA94 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		558ACD2B2B1FEFB500A8FE1A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCD82B1ED8F60094AA94 /* PageModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		558ACD2E2B1FEFF700A8FE1A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCBE2B1ECF790094AA94 /* GreenSpacesTests */,
+				55D3DCC82B1ECF790094AA94 /* GreenSpacesUITests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		558ACD352B1FF5F900A8FE1A /* Trips */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD362B1FF62A00A8FE1A /* ParkServicesView.swift */,
+			);
+			path = Trips;
+			sourceTree = "<group>";
+		};
+		55D3DCA22B1ECF740094AA94 = {
+			isa = PBXGroup;
+			children = (
+				55D3DCAD2B1ECF740094AA94 /* GreenSpaces */,
+				558ACD2E2B1FEFF700A8FE1A /* Tests */,
+				55D3DCAC2B1ECF740094AA94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55D3DCAC2B1ECF740094AA94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCAB2B1ECF740094AA94 /* GreenSpaces.app */,
+				55D3DCBB2B1ECF790094AA94 /* GreenSpacesTests.xctest */,
+				55D3DCC52B1ECF790094AA94 /* GreenSpacesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D3DCAD2B1ECF740094AA94 /* GreenSpaces */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCE22B1EE5340094AA94 /* Info.plist */,
+				55D3DCE72B1F049D0094AA94 /* App */,
+				554E51262B1F75A600B01321 /* Fonts */,
+				55D3DCEF2B1F05440094AA94 /* Map Functionality */,
+				558ACD292B1FEF9700A8FE1A /* Main Flow  */,
+				55D3DCB22B1ECF790094AA94 /* Assets.xcassets */,
+				55D3DCB42B1ECF790094AA94 /* Preview Content */,
+			);
+			path = GreenSpaces;
+			sourceTree = "<group>";
+		};
+		55D3DCB42B1ECF790094AA94 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCB52B1ECF790094AA94 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "../Preview Content";
+			sourceTree = "<group>";
+		};
+		55D3DCBE2B1ECF790094AA94 /* GreenSpacesTests */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCBF2B1ECF790094AA94 /* GreenSpacesTests.swift */,
+			);
+			path = GreenSpacesTests;
+			sourceTree = "<group>";
+		};
+		55D3DCC82B1ECF790094AA94 /* GreenSpacesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCC92B1ECF790094AA94 /* GreenSpacesUITests.swift */,
+				55D3DCCB2B1ECF790094AA94 /* GreenSpacesUITestsLaunchTests.swift */,
+			);
+			path = GreenSpacesUITests;
+			sourceTree = "<group>";
+		};
+		55D3DCE72B1F049D0094AA94 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCAE2B1ECF740094AA94 /* GreenSpacesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		55D3DCEA2B1F04B70094AA94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		55D3DCEB2B1F04C20094AA94 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				55D3DCF22B1F09D60094AA94 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		55D3DCEC2B1F04CD0094AA94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				558ACCFE2B1FDAC700A8FE1A /* MapViewState.swift */,
+				55A0ABCE2B2113560021FB79 /* Buddies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		55D3DCEF2B1F05440094AA94 /* Map Functionality */ = {
+			isa = PBXGroup;
+			children = (
+				558ACD222B1FEE8500A8FE1A /* Core */,
+				55D3DCEA2B1F04B70094AA94 /* Extensions */,
+				55D3DCEB2B1F04C20094AA94 /* Managers */,
+				55D3DCEC2B1F04CD0094AA94 /* Models */,
+			);
+			path = "Map Functionality";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D3DCAA2B1ECF740094AA94 /* GreenSpaces */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D3DCCF2B1ECF790094AA94 /* Build configuration list for PBXNativeTarget "GreenSpaces" */;
+			buildPhases = (
+				55D3DCA72B1ECF740094AA94 /* Sources */,
+				55D3DCA82B1ECF740094AA94 /* Frameworks */,
+				55D3DCA92B1ECF740094AA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GreenSpaces;
+			productName = GreenSpaces;
+			productReference = 55D3DCAB2B1ECF740094AA94 /* GreenSpaces.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55D3DCBA2B1ECF790094AA94 /* GreenSpacesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D3DCD22B1ECF790094AA94 /* Build configuration list for PBXNativeTarget "GreenSpacesTests" */;
+			buildPhases = (
+				55D3DCB72B1ECF790094AA94 /* Sources */,
+				55D3DCB82B1ECF790094AA94 /* Frameworks */,
+				55D3DCB92B1ECF790094AA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D3DCBD2B1ECF790094AA94 /* PBXTargetDependency */,
+			);
+			name = GreenSpacesTests;
+			productName = GreenSpacesTests;
+			productReference = 55D3DCBB2B1ECF790094AA94 /* GreenSpacesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55D3DCC42B1ECF790094AA94 /* GreenSpacesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D3DCD52B1ECF790094AA94 /* Build configuration list for PBXNativeTarget "GreenSpacesUITests" */;
+			buildPhases = (
+				55D3DCC12B1ECF790094AA94 /* Sources */,
+				55D3DCC22B1ECF790094AA94 /* Frameworks */,
+				55D3DCC32B1ECF790094AA94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55D3DCC72B1ECF790094AA94 /* PBXTargetDependency */,
+			);
+			name = GreenSpacesUITests;
+			productName = GreenSpacesUITests;
+			productReference = 55D3DCC52B1ECF790094AA94 /* GreenSpacesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D3DCA32B1ECF740094AA94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					55D3DCAA2B1ECF740094AA94 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					55D3DCBA2B1ECF790094AA94 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 55D3DCAA2B1ECF740094AA94;
+					};
+					55D3DCC42B1ECF790094AA94 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 55D3DCAA2B1ECF740094AA94;
+					};
+				};
+			};
+			buildConfigurationList = 55D3DCA62B1ECF740094AA94 /* Build configuration list for PBXProject "GreenSpaces" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D3DCA22B1ECF740094AA94;
+			productRefGroup = 55D3DCAC2B1ECF740094AA94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D3DCAA2B1ECF740094AA94 /* GreenSpaces */,
+				55D3DCBA2B1ECF790094AA94 /* GreenSpacesTests */,
+				55D3DCC42B1ECF790094AA94 /* GreenSpacesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D3DCA92B1ECF740094AA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				558ACCF42B1F838C00A8FE1A /* Nunito-SemiBold.ttf in Resources */,
+				558ACCF32B1F838C00A8FE1A /* Nunito-BlackItalic.ttf in Resources */,
+				558ACCEC2B1F838C00A8FE1A /* Nunito-Regular.ttf in Resources */,
+				558ACCF92B1F838C00A8FE1A /* Nunito-ExtraLightItalic.ttf in Resources */,
+				558ACCF82B1F838C00A8FE1A /* Nunito-ExtraLight.ttf in Resources */,
+				558ACCEA2B1F838C00A8FE1A /* Nunito-SemiBoldItalic.ttf in Resources */,
+				558ACCEB2B1F838C00A8FE1A /* Nunito-Black.ttf in Resources */,
+				558ACCEF2B1F838C00A8FE1A /* Nunito-BoldItalic.ttf in Resources */,
+				558ACCF02B1F838C00A8FE1A /* Nunito-Medium.ttf in Resources */,
+				55D3DCE12B1EE4E60094AA94 /* Nunito-ExtraBold.ttf in Resources */,
+				558ACCF12B1F838C00A8FE1A /* Nunito-MediumItalic.ttf in Resources */,
+				55D3DCB62B1ECF790094AA94 /* Preview Assets.xcassets in Resources */,
+				558ACCED2B1F838C00A8FE1A /* Nunito-Italic.ttf in Resources */,
+				558ACCF52B1F838C00A8FE1A /* Nunito-ExtraBoldItalic.ttf in Resources */,
+				558ACCEE2B1F838C00A8FE1A /* Nunito-Bold.ttf in Resources */,
+				558ACCF22B1F838C00A8FE1A /* Nunito-LightItalic.ttf in Resources */,
+				55D3DCB32B1ECF790094AA94 /* Assets.xcassets in Resources */,
+				558ACCF72B1F838C00A8FE1A /* Nunito-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D3DCB92B1ECF790094AA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D3DCC32B1ECF790094AA94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D3DCA72B1ECF740094AA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F27FE52B21401A00DF2987 /* BackToHomeButton.swift in Sources */,
+				558ACD342B1FF2BD00A8FE1A /* MapViewActionButton.swift in Sources */,
+				55D3DCB12B1ECF740094AA94 /* ContentView.swift in Sources */,
+				55D3DCDD2B1EDC0E0094AA94 /* PageView.swift in Sources */,
+				55D3DCD92B1ED8F60094AA94 /* PageModel.swift in Sources */,
+				558ACCFF2B1FDAC700A8FE1A /* MapViewState.swift in Sources */,
+				55D3DCF32B1F09D60094AA94 /* LocationManager.swift in Sources */,
+				55F27FE32B21248900DF2987 /* ConfirmationPageView.swift in Sources */,
+				558ACD1B2B1FED8600A8FE1A /* LocationSearchView.swift in Sources */,
+				558ACD212B1FED8600A8FE1A /* MapView.swift in Sources */,
+				558ACD372B1FF62A00A8FE1A /* ParkServicesView.swift in Sources */,
+				558ACD202B1FED8600A8FE1A /* LocationSearchViewModel.swift in Sources */,
+				55D3DCAF2B1ECF740094AA94 /* GreenSpacesApp.swift in Sources */,
+				55A0ABCF2B2113560021FB79 /* Buddies.swift in Sources */,
+				558ACD132B1FED8600A8FE1A /* LocationSearchActivationView.swift in Sources */,
+				558ACD152B1FED8600A8FE1A /* LocationSearchResultsCell.swift in Sources */,
+				558ACD1D2B1FED8600A8FE1A /* MapViewRepresentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D3DCB72B1ECF790094AA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D3DCC02B1ECF790094AA94 /* GreenSpacesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55D3DCC12B1ECF790094AA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D3DCCA2B1ECF790094AA94 /* GreenSpacesUITests.swift in Sources */,
+				55D3DCCC2B1ECF790094AA94 /* GreenSpacesUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55D3DCBD2B1ECF790094AA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D3DCAA2B1ECF740094AA94 /* GreenSpaces */;
+			targetProxy = 55D3DCBC2B1ECF790094AA94 /* PBXContainerItemProxy */;
+		};
+		55D3DCC72B1ECF790094AA94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55D3DCAA2B1ECF740094AA94 /* GreenSpaces */;
+			targetProxy = 55D3DCC62B1ECF790094AA94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55D3DCCD2B1ECF790094AA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55D3DCCE2B1ECF790094AA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D3DCD02B1ECF790094AA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenSpaces/Preview Content\"";
+				DEVELOPMENT_TEAM = 9N5FRP7NX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreenSpaces/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location to help you find nearby parks.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.freddiamond.GreenSpaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55D3DCD12B1ECF790094AA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GreenSpaces/Preview Content\"";
+				DEVELOPMENT_TEAM = 9N5FRP7NX4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreenSpaces/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow us to access your location to help you find nearby parks.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.freddiamond.GreenSpaces;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		55D3DCD32B1ECF790094AA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N5FRP7NX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.freddiamond.GreenSpacesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenSpaces.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenSpaces";
+			};
+			name = Debug;
+		};
+		55D3DCD42B1ECF790094AA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N5FRP7NX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.freddiamond.GreenSpacesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GreenSpaces.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GreenSpaces";
+			};
+			name = Release;
+		};
+		55D3DCD62B1ECF790094AA94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N5FRP7NX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.freddiamond.GreenSpacesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenSpaces;
+			};
+			name = Debug;
+		};
+		55D3DCD72B1ECF790094AA94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N5FRP7NX4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.freddiamond.GreenSpacesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GreenSpaces;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D3DCA62B1ECF740094AA94 /* Build configuration list for PBXProject "GreenSpaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D3DCCD2B1ECF790094AA94 /* Debug */,
+				55D3DCCE2B1ECF790094AA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D3DCCF2B1ECF790094AA94 /* Build configuration list for PBXNativeTarget "GreenSpaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D3DCD02B1ECF790094AA94 /* Debug */,
+				55D3DCD12B1ECF790094AA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D3DCD22B1ECF790094AA94 /* Build configuration list for PBXNativeTarget "GreenSpacesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D3DCD32B1ECF790094AA94 /* Debug */,
+				55D3DCD42B1ECF790094AA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D3DCD52B1ECF790094AA94 /* Build configuration list for PBXNativeTarget "GreenSpacesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D3DCD62B1ECF790094AA94 /* Debug */,
+				55D3DCD72B1ECF790094AA94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55D3DCA32B1ECF740094AA94 /* Project object */;
+}
